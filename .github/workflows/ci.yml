@@ -16,7 +16,7 @@ jobs:
  
        - name: Set up Docker Compose
          run: |
-           docker copose up -d
+           docker compose up -d
            echo "⏳ Waiting for containers to initialize..."
            sleep 20
  
